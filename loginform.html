@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+         body{
+            background-image: linear-gradient(to right,black,red);
+         }
+         .btn-1{
+            color: white;
+            border-radius: 15px;
+            width: 200px;
+            height: 35px;
+            background-image: linear-gradient(to right,red,black);
+            margin: 20px 0 10px 0;
+         }
+
+         .btn-1:hover{
+            color: black;
+            background-image:linear-gradient(to right,yellow,red);
+            cursor: pointer;
+         }
+
+         h1{
+            text-align: center;
+            font-size: 40px;
+         }
+
+         span{
+            color:aqua;
+            border-style: none;
+         }
+
+         div{
+            margin-left: 110px;
+         }
+
+         form{
+            border: 1px solid white;
+            margin: 200px 550px ;
+            width: 400px;
+         }
+
+         p{
+            text-align: center;
+         }
+
+         a{
+            text-decoration: none;
+            color: aqua;
+         }
+
+         a:hover{
+            cursor: pointer;
+            color: white;
+         }
+
+         .text{
+            text-align:left;
+         }
+    </style>
+</head>
+<body>
+    <section>
+        <form>
+            <h1>Login Form</h1>
+            <div class="input-box">
+                <label for="" class="text"> Email or Phone</label><br>
+            <input type="email,number" placeholder="Email or Phone"><br><br>
+            <label for="" class="text">Password</label><br>
+            <input type="password" placeholder="Password"><br><br>
+            <input type="button" value="Login" class="btn-1"><br>
+            </div>
+            <p>Not a member ? <span><a href="signup.html">Signup Now</a></span></p>
+        
+        </form>
+        </section>
+</body>
+</html>
